@@ -27,11 +27,11 @@ namespace Module2_2
 
         public static void Message(int n)
         {
-                if ((n >=18) && (n % 2 == 0))
-                    Console.WriteLine("Congratulations on coming of age");
-                else if ((n < 18) && (n > 13) && (n % 2 == 1))
+            if ((n >= 18) && (n % 2 == 0))
+                Console.WriteLine("Congratulations on coming of age");
+            else if ((n < 18) && (n > 13) && (n % 2 == 1))
                 Console.WriteLine("Congratulations on coming to high school");
-                else Console.WriteLine("No text for this value");
+            else Console.WriteLine("No text for this value");
         }
     }
 }
