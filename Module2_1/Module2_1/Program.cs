@@ -37,7 +37,11 @@ namespace Module2_1
                 bool result = float.TryParse(input, NumberStyles.Float, formatter, out m);
                 if (result == true)
                     break;
-                else Console.WriteLine("Incorrect data.Try again.");
+                else
+                {
+                    Console.WriteLine("Incorrect data.Try again.");
+                    input = Console.ReadLine();
+                }
             }
             return m;
         }
