@@ -85,7 +85,7 @@ namespace Module5
                         field[i, j] = (char)9474;
                 }
             }
-            if (visible == true)
+            if (visible)
             {
                 for (int i = 0; i < 10; i++)
                 {
